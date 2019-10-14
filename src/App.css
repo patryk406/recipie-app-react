@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 .search-form {
@@ -8,27 +8,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: crimson;
+  color: rgb(73, 54, 58);
   font-weight: bold;
 }
 
 .search-bar {
   width: 50%;
-  border: 2px solid crimson;
+  border: 2px solid rgb(73, 54, 58);
   border-radius: 15px;
   background-color: transparent;
   padding: 10px;
   margin-right: 10px;
-  color: crimson;
+  color: rgb(73, 54, 58);
   font-weight: bold;
+  outline: none;
 }
 .search-button {
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid rgb(73, 54, 58);
   padding: 10px 20px;
-  color: crimson;
+  color: rgb(73, 54, 58);
   font-weight: bold;
   border-radius: 15px;
+  outline: none;
 }
 .recipes {
   display: flex;

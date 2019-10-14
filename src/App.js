@@ -41,6 +41,7 @@ const App = () => {
           type='text'
           value={search}
           onChange={updateSearch}
+          placeholder='Write what dish You wanna eat'
         />
         <button className='search-button' type='submit'>
           Search
@@ -53,7 +54,6 @@ const App = () => {
           <Recipe
             key={recipe.recipe.label}
             title={recipe.recipe.label}
-            calories={recipe.recipe.calories}
             image={recipe.recipe.image}
             ingredients={recipe.recipe.ingredients}
           />
