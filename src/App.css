@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: url(./light-grey-terrazzo.png);
 }
 
 .search-form {
@@ -11,17 +11,36 @@
   color: rgb(73, 54, 58);
   font-weight: bold;
 }
-
+.search-bar::placeholder {
+  transition: all 0.5s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.search-bar:focus::placeholder {
+  position: absolute;
+  transform: translateX(60%);
+  color: rgb(63, 107, 63);
+  font-size: 12px;
+}
 .search-bar {
+  position: relative;
+  font-weight: 700;
+  font-style: sans-serif;
+  margin: 0 1rem;
   width: 50%;
-  border: 2px solid rgb(73, 54, 58);
-  border-radius: 15px;
-  background-color: transparent;
-  padding: 10px;
-  margin-right: 10px;
-  color: rgb(73, 54, 58);
-  font-weight: bold;
+  height: 5vh;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  border-bottom: 2px solid black;
+  background: transparent;
   outline: none;
+  cursor: grab;
+}
+.search-bar:focus {
+  color: rgb(63, 107, 63);
+  font-weight: 700;
 }
 .search-button {
   background-color: transparent;
@@ -31,6 +50,11 @@
   font-weight: bold;
   border-radius: 15px;
   outline: none;
+  cursor: grab;
+}
+.search-button:hover {
+  color: rgb(63, 107, 63);
+  border: 2px solid rgb(63, 107, 63);
 }
 .recipes {
   display: flex;

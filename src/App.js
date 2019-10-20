@@ -12,6 +12,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
   const getRecipes = async () => {
@@ -20,7 +21,6 @@ const App = () => {
     );
     const data = await response.json();
     setRecipes(data.hits);
-    console.log(data.hits);
   };
 
   const updateSearch = e => {
