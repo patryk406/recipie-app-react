@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25cb708d.chunk.css",
+    "main.js": "/static/js/main.b86e8eb1.chunk.js",
+    "main.js.map": "/static/js/main.b86e8eb1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf502de6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf502de6.js.map",
+    "static/js/2.ab6e2efe.chunk.js": "/static/js/2.ab6e2efe.chunk.js",
+    "static/js/2.ab6e2efe.chunk.js.map": "/static/js/2.ab6e2efe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fd51ba3334c71ecf466a5c14e32561d1.js": "/precache-manifest.fd51ba3334c71ecf466a5c14e32561d1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.25cb708d.chunk.css.map": "/static/css/main.25cb708d.chunk.css.map",
+    "static/media/App.css": "/static/media/light-grey-terrazzo.37434414.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf502de6.js",
+    "static/js/2.ab6e2efe.chunk.js",
+    "static/css/main.25cb708d.chunk.css",
+    "static/js/main.b86e8eb1.chunk.js"
+  ]
+}
