@@ -1,6 +1,8 @@
 .App {
-  min-height: 100vh;
-  background-image: url(./light-grey-terrazzo.png);
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .search-form {
@@ -8,10 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(73, 54, 58);
+  color: rgb(211, 209, 210);
   font-weight: bold;
 }
 .search-bar::placeholder {
+  color: rgb(73, 54, 58);
   transition: all 0.5s linear;
   position: absolute;
   top: 0;
@@ -20,7 +23,7 @@
 .search-bar:focus::placeholder {
   position: absolute;
   transform: translateX(60%);
-  color: rgb(63, 107, 63);
+  color: rgb(250, 250, 250);
   font-size: 12px;
 }
 .search-bar {
@@ -39,25 +42,33 @@
   cursor: grab;
 }
 .search-bar:focus {
-  color: rgb(63, 107, 63);
+  color: rgb(211, 209, 210);
   font-weight: 700;
 }
-.search-button {
-  background-color: transparent;
-  border: 2px solid rgb(73, 54, 58);
-  padding: 10px 20px;
-  color: rgb(73, 54, 58);
-  font-weight: bold;
-  border-radius: 15px;
-  outline: none;
-  cursor: grab;
+.btn {
+  font-weight: 500 !important;
+  border: 2px solid black !important;
 }
-.search-button:hover {
-  color: rgb(63, 107, 63);
-  border: 2px solid rgb(63, 107, 63);
+.btn:hover {
+  box-shadow: -1px 6px 10px 0px rgba(0, 0, 0, 0.75);
 }
 .recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background: rgba(97, 97, 97, 0.61);
+  color: white;
+  font-size: 18px;
+}
+footer h6 a:link,
+footer h6 a:hover,
+footer p a:link {
+  text-decoration: none;
+  color: black;
+  cursor: grab;
 }

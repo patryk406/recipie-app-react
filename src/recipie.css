@@ -1,0 +1,32 @@
+.card {
+  max-width: 300px !important;
+}
+.card-deck {
+  padding: 20px;
+}
+.time,
+.length {
+  color: green;
+}
+h6.card-footer {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.card-text h5 {
+  color: crimson;
+}
+.card-footer {
+  font-size: 14px;
+}
+.card-footer a {
+  color: rgb(34, 34, 34);
+  font-style: italic;
+}
+.card-footer p {
+  color: rgb(156, 156, 156);
+  font-style: italic;
+}
+.card-title {
+  color: rgb(105, 101, 101);
+  font-size: 24px;
+}
