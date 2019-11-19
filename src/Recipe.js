@@ -3,16 +3,7 @@ import "./recipie.css";
 
 //wyslanie danych, ktore zostana nadpisane poprzez jsona z data na stronie.
 
-const Recipe = ({
-  title,
-  image,
-  key,
-  calories,
-  length,
-  time,
-  link,
-  source
-}) => {
+const Recipe = ({ title, image, id, calories, length, time, link, source }) => {
   return (
     <div className="card-deck">
       <div className="card">
@@ -33,7 +24,7 @@ const Recipe = ({
         <div className="card-footer">
           <p>
             Have whole recipie in{" "}
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               {source}
             </a>
           </p>

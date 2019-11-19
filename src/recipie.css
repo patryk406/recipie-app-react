@@ -22,6 +22,10 @@ h6.card-footer {
   color: rgb(34, 34, 34);
   font-style: italic;
 }
+.card-footer a:hover {
+  text-decoration: none;
+  color: green;
+}
 .card-footer p {
   color: rgb(156, 156, 156);
   font-style: italic;

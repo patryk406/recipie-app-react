@@ -60,15 +60,22 @@
 footer {
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  height: 120%;
   background: rgba(97, 97, 97, 0.61);
   color: white;
   font-size: 18px;
+  overflow: hidden;
+}
+footer h6 a {
+  color: black;
+  font-size: 16px;
 }
 footer h6 a:link,
 footer h6 a:hover,
 footer p a:link {
   text-decoration: none;
-  color: black;
   cursor: grab;
+}
+footer h6:first-of-type {
+  padding-top: 1rem;
 }
