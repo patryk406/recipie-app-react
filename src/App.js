@@ -52,7 +52,7 @@ const App = () => {
 
       <div className="recipes">
         {recipes.map(recipe => (
-          //Przypisanie potrzebnych danych z jsona z data.
+          //write nedded data from json and map them
           <Recipe
             key={recipe.recipe.totalWeight}
             title={recipe.recipe.label}

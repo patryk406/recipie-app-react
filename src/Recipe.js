@@ -1,8 +1,5 @@
 import React from "react";
 import "./recipie.css";
-
-//wyslanie danych, ktore zostana nadpisane poprzez jsona z data na stronie.
-
 const Recipe = ({ title, image, id, calories, length, time, link, source }) => {
   return (
     <div className="card-deck">
