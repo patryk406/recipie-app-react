@@ -1,1 +1,4 @@
-This project is using API to search for recipe. hooks use state and use effect and simple styling.
+This project is using API to show recipes, search for them. 
+#React
+#Hooks
+#Fetch
